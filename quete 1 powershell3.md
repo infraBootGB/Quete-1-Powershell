@@ -6,7 +6,7 @@ rm -->      Remove-Item
 
 cd -->      Set-Location
 
-mkdir -->   mkdir
+mkdir -->    New-Item
 
 man -->     help
 
@@ -49,11 +49,25 @@ CommandType     Name                                               Version    So
 
 # mkdir
 
-PS C:\Users\b> Get-Command -Name mkdir
+ PS C:\Users\b> Get-Command mkdir
 
-CommandType     Name                                               Version    Source                                                                                     
------------     ----                                               -------    ------                                                                                     
-**Function        mkdir**                                                                                                                                                    
+CommandType     Name                                               Version    Source                                                                                                          
+-----------     ----                                               -------    ------                                                                                                          
+Function        mkdir                                                                                                                                                                         
+
+
+
+PS C:\Users\b> Get-Help mkdir
+
+NOM
+    New-Item
+    
+SYNTAXE
+    New-Item [-Path] <string[]>  [<CommonParameters>]
+    
+    New-Item [[-Path] <string[]>]  [<CommonParameters>]
+    
+                                                                                                                                                
 
 # man
 
